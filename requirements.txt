@@ -19,8 +19,6 @@ jsonschema
 markupsafe 
 nbclassic  
 nbformat  
-nt 
-ntsecuritycon 
 packaging  
 parso
 pickleshare
