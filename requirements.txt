@@ -25,11 +25,6 @@ pickleshare
 prometheus_client
 prompt_toolkit
 pycparser
-pyexpat
-pygments
-pyrsistent
-pythoncom
-pywintypes
 requests
 send2trash
 six
