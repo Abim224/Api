@@ -1,4 +1,3 @@
-pycryptodome-test-vectors==1.0.10
 Crypto
 anyio
 attr
@@ -9,7 +8,10 @@ certifi
 cffi
 chardet
 charset_normalizer 
-colorama  
+colorama   
+debugpy  
+decorator   
+django  
 entrypoints 
 google   
 idna  
@@ -26,6 +28,9 @@ pickleshare
 prometheus_client
 prompt_toolkit
 pycparser
+pydevd
+pygments
+pyrsistent
 requests
 send2trash
 six
@@ -36,4 +41,4 @@ traitlets
 urllib3
 wcwidth
 zmq
-zope          
+zope
