@@ -1,3 +1,4 @@
+pycryptodome-test-vectors==1.0.10
 Crypto
 anyio
 attr
