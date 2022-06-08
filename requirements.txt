@@ -9,7 +9,7 @@ cffi
 chardet
 charset_normalizer 
 colorama  
-cython_runtime 
+
 dateutil  
 debugpy  
 decorator   
