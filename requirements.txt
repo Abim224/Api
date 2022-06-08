@@ -34,11 +34,5 @@ tornado
 traitlets
 urllib3
 wcwidth
-win32api
-win32com
-win32con
-win32security
-win32trace
-winerror
 zmq
 zope          
