@@ -9,11 +9,6 @@ cffi
 chardet
 charset_normalizer 
 colorama  
-
-dateutil  
-debugpy  
-decorator   
-django  
 entrypoints 
 google   
 idna  
