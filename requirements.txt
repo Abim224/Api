@@ -1,5 +1,5 @@
 pycryptodome-test-vectors==1.0.10
-Crypto
+Crypto-1.4.1
 anyio
 attr
 babel
