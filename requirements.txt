@@ -30,7 +30,6 @@ send2trash
 six
 sniffio
 socks
-storemagic
 tornado
 traitlets
 urllib3
