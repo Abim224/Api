@@ -24,7 +24,6 @@ parso
 pickleshare
 prometheus_client
 prompt_toolkit
-pvectorc
 pycparser
 pydev_ipython
 pydevconsole
