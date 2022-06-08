@@ -1,9 +1,11 @@
 crypto
-Crypto
+Crypto==3.14.1
+
 anyio
 attr
 babel
 backcall
+bottleneck
 brotli 
 certifi  
 cffi
