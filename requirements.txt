@@ -22,7 +22,6 @@ nbformat
 packaging  
 parso
 pickleshare
-pkg_resources
 prometheus_client
 prompt_toolkit
 pvectorc
