@@ -30,7 +30,6 @@ send2trash
 six
 sniffio
 socks
-sphinxcontrib
 storemagic
 tornado
 traitlets
