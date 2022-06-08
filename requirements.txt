@@ -25,13 +25,6 @@ pickleshare
 prometheus_client
 prompt_toolkit
 pycparser
-pydev_ipython
-pydevconsole
-pydevd
-pydevd_concurrency_analyser
-pydevd_file_utils
-pydevd_plugins
-pydevd_tracing
 pyexpat
 pygments
 pyrsistent
