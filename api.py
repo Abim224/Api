@@ -38,7 +38,7 @@ def main(argv):
     try:
 
         
-        privateKey =r'C:\\Users\\abinash.m\\Time_series\untitled1.txt'
+        privateKey ='untitled1.txt'
 
 
     except:
