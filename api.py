@@ -48,8 +48,8 @@ def main(argv):
     #print('Timestamp:', epoch_time)
     #print('Signature:' , sign_data(privateKey, data).decode())
     sig = sign_data(privateKey, data).decode()
-    m = print('Timestamp:', epoch_time)
-    return sig,m
+    #m = print('Timestamp:', epoch_time)
+    return sig,epoch_time
 @app.route('/')
 def result():
     #m = main(sys.argv)
