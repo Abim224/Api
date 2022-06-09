@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun  8 22:21:45 2022
+Created on Thu Jun  9 19:52:09 2022
 
 @author: Abinash.m
 """
-import Crypto
+from flask import Flask
+
 import sys, time
 import base64
-import streamlit as st
+app = Flask(__name__)
 def printError(msg=''):
     if msg != "":
         print("Error: " + msg)
@@ -19,7 +20,6 @@ def printError(msg=''):
     print('')
     print('')
     sys.exit()
-
 def sign_data(private_key, data):
     from Crypto.PublicKey import RSA 
     from Crypto.Signature import PKCS1_v1_5 
@@ -32,14 +32,13 @@ def sign_data(private_key, data):
     digest.update(data.encode('utf-8')) 
     sign = signer.sign(digest) 
     return b64encode(sign)
-
 def main(argv):
     global logData
     global hostname
     try:
 
         
-        privateKey ='untitled1.txt'
+        privateKey =r'C:\\Users\\abinash.m\\Time_series\untitled1.txt'
 
 
     except:
@@ -49,7 +48,10 @@ def main(argv):
     #print('Timestamp:', epoch_time)
     #print('Signature:' , sign_data(privateKey, data).decode())
     sig = sign_data(privateKey, data).decode()
-    st.write(sig)
-
-if __name__ == "__main__":
-    main(sys.argv)
+    return sig
+@app.route('/')
+def result():
+    #m = main(sys.argv)
+    return main(sys.argv)
+if __name__ == '__main__':
+    app.run(port=5000, debug=True)
