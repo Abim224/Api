@@ -46,10 +46,10 @@ def main(argv):
     epoch_time = int(time.time()) * 1000
     data = 'd23d5ad5-b016-4a76-b6bb-c6bae0372374' + '\n' + str(epoch_time) + '\n' + '1' + '\n'
     #print('Timestamp:', epoch_time)
-    #print('Signature:' , sign_data(privateKey, data).decode())
+    print('Signature:' , sign_data(privateKey, data).decode())
     sig = sign_data(privateKey, data).decode()
     #m = print('Timestamp:', epoch_time)
-    return sig,epoch_time
+    return sig
 @app.route('/')
 def result():
     #m = main(sys.argv)
