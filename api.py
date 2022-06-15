@@ -49,7 +49,7 @@ def main(argv):
     print('Signature:' , sign_data(privateKey, data).decode())
     sig = sign_data(privateKey, data).decode()
     #m = print('Timestamp:', epoch_time)
-    return sig
+    return sig,epoch_time
 @app.route('/')
 def result():
     #m = main(sys.argv)
