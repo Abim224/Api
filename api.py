@@ -53,6 +53,10 @@ def main(argv):
 @app.route('/')
 def result():
     #m = main(sys.argv)
-    return main(sys.argv)
+    #return main(sys.argv)
+    return {
+            "Authorization": main(sys.argv)[0],
+            "epoch_time":main(sys.argv)[1]
+            }
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
